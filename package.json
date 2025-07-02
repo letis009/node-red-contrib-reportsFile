@@ -1,6 +1,6 @@
 {
   "name": "@letis009/node-red-contrib-tdn-report",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TDN Deposit Report Formatter Node",
   "main": "tdn-report.js",
   "node-red": {
@@ -8,7 +8,11 @@
       "tdn-report": "tdn-report.js"
     }
   },
-  "keywords": ["node-red", "tdn", "report"],
+  "keywords": [
+    "node-red",
+    "tdn",
+    "report"
+  ],
   "author": "Switch Point",
   "license": "MIT",
   "repository": {
