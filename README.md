@@ -13,4 +13,4 @@ Restart Node-RED afterwards.
 
 ## Usage
 
-Drag the `tdn-report` node from the palette and wire it to any payload that contains BPS machine data. It outputs a formatted string report.
+Drag the `tdn-report` node from the palette and wire it to any payload that contains format data. It outputs a formatted string report.
