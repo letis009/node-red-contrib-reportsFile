@@ -1,0 +1,12 @@
+{
+  "name": "node-red-contrib-tdn-report",
+  "version": "1.0.0",
+  "description": "Custom TDN report formatting node",
+  "main": "tdn-report.js",
+  "keywords": ["node-red"],
+  "node-red": {
+    "nodes": {
+      "tdn-report": "tdn-report.js"
+    }
+  }
+}
