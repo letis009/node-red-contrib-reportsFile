@@ -1,6 +1,6 @@
 {
   "name": "@letis009/node-red-contrib-tdn-report",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TDN Deposit Report Formatter Node",
   "main": "tdn-report.js",
   "node-red": {
