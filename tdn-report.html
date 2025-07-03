@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType('tdn-report', {
+        category: 'function',
+        color: '#fdd0a2',
+        defaults: {
+            name: { value: "" }
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "font-awesome/fa-file-text-o",
+        label: function () {
+            return this.name || "tdn-report";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="tdn-report">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="tdn-report">
+    <p>This node formats deposit reports based on dataset and report type.</p>
+</script>
